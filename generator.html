@@ -21,9 +21,21 @@
   <body>
     <header>
       <div class="inner">
-        <h1>Potentia</h1>
+        <h1><a href="index.html" class="navlink">Potentia</a></h1>
         <h2>by Flibio</h2>
-        <a href="http://dev.bukkit.org/bukkit-plugins/potentia/" class="button"><small>View project on</small> BukkitDev</a>
+		<div class="navigation">
+			<ul>
+				<li class="main_nav_item">Machines
+					<ul>
+						<li><a href="generator.html" class="navlink">Generator</a></li>
+						<li><a href="recharger.html" class="navlink">Recharger</a></li>
+					</ul>
+				</li>
+				<li class="main_nav_item"><a href="tools.html" class="navlink">Power Tools</a></li>
+				<li class="main_nav_item"><a href="wires.html" class="navlink">Wires</a></li>
+				<li class="main_nav_item"><a href="displays.html" class="navlink">Displays</a></li>
+			</ul>
+		</div>
       </div>
     </header>
 
@@ -31,44 +43,42 @@
       <div class="inner clearfix">
         <section id="main-content" class="roboto">
           <h2>
-<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+<a id="generator" class="anchor" href="#generator" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generator</h2>
 
-<p>Potentia is a plugin that adds power, machines, and more to any Minecraft server running Bukkit/Spigot. Potentia requires no mods to run, yet adds many mod-like features!</p>
-
-<h3>
-<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h3>
-
-<p>To get started with Potentia you are going to want to craft a <a href="">generator</a>. This will generate and store power that will be used by Potentia machines. After you craft a
- generator, you will need to place it somewhere in the world. Potentia will send you a message that says the generator was placed. The generate generates power using coal that you place in it.
- to view the coal and power supplies that the generator contains simply right-click it. To start generating power, you will need to insert coal into the generator by right-clicking on it with
-  coal in your hand. Then supply redstone power to the generator and it will begin to generate power!</p>
+<p>The generator is the first item you are going to want to craft in Potentia. The generator generates power using coal that you supply it <u>as long as it is powered by a redstone signal</u>.
+ It will generate <u>25 Machine Energy per tick</u> while using <u>1 piece of coal every 2.5 seconds</u>. Right-clicking the generator will display the current amount of fuel and the current power 
+ stored inside. The generator has a <u>maximum capacity of 1,000,000 Machine Energy</u>. The generator is compatible with <a href="displays.html">Displays</a>.</p>
 
 <h3>
-<a id="learn-more" class="anchor" href="#learn-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learn More</h3>
-
-<p>If you would like to learn more about the many items and features of Potentia, please click on the links below.</p>
+<a id="crafting" class="anchor" href="#crafting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Crafting</h3>
+	To craft the generator use the following recipe: <p>
+	<img src="generator.png">
 
 <h3>
 <a id="bugs-and-issues" class="anchor" href="#bugs-and-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bugs and Issues</h3>
 
 <p>Having troubles with Potentia? Found a bug? Click <a href="https://github.com/Flibio/Potentia/issues/">here</a> to view our issue tracker on GitHub. </p>
+
+<h3>
+<a id="feature" class="anchor" href="#feature" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Suggestions</h3>
+
+<p>Have an idea to improve Potentia? Click <a href="https://github.com/Flibio/Potentia/issues/">here</a> to view our issue tracker on GitHub(Use suggestion as the issue label).
+If you don't have a GitHub account, leave a comment on our Spigot or Bukkit project page.</p>
         </section>
 
         <aside id="sidebar">
-          <a href="http://dev.bukkit.org/bukkit-plugins/potentia/files/" class="button robot">
-            <div class="smaller">Latest Release</div>
-            v0.1-BETA
+          <a href="http://dev.bukkit.org/bukkit-plugins/potentia/" class="button robot">
+            <div class="smaller">Download on</div>
+            BukkitDev
           </a>
-          <a href="Potentia-1.0.0-PRE.jar" class="button robot" download>
-            <div class="smaller">Latest Pre-Release</div>
-            v1.0.0-PRE 1
+          <a href="" class="button robot">
+            <div class="smaller">Download on</div>
+            SpigotMC
           </a>
 		  
-		  <p style="font-family: 'Yanone Kaffeesatz', sans-serif; font-size: 17px;">
-		  Notice: The pre-release download is not guaranteed to run bug-free. If you find a bug in any of the latest Potentia files, please open an issue on GitHub <a href="https://github.com/Flibio/Potentia/issues/new">here</a>.
+		  <p style="font-family: 'Yanone Kaffeesatz', sans-serif; font-size: 20px;">
+			Latest Version: <u>1.0.0-PRE 1</u>
 		  </p>
-
-          <p class="repo-owner">Blocks &#9660 </p>
 
           <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
         </aside>
